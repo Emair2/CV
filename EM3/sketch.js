@@ -133,7 +133,6 @@ function draw() {
     select("#motion").elt.innerText = total;
     capture.updatePixels();
     push();
-    translate(width, 0);
     scale(setScale(), setScale())
     image(capture, 0, 0, 740, 580);
     pop()
