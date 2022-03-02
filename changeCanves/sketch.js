@@ -3,7 +3,7 @@
 var capture;
 var previousPixels;
 var w = 640;
-var h = 430;
+var h = 480;
 
 
 //字母雨前提
