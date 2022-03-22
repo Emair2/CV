@@ -36,7 +36,8 @@ function setup() {
 
   //文字内容
   let sourceText = [
-    "I keep falling, I keep being reborn",
+    "Call (914)-687-0751",
+  
   ];
 
 
@@ -116,14 +117,14 @@ function draw() {
 
   //摇晃
   rectMode(CENTER);
-  //translate(width / 10, height / 10);
-  translate(p5.Vector.fromAngle(millis() / 9000, 6));
+  //translate(width / 30, height / 10);
+  translate(p5.Vector.fromAngle(millis() / 9000, 24));
 
 
   //渲染效果
   blendMode(DIFFERENCE);
-  strokeWeight(20);
-  stroke(255, 255, 245);
+  strokeWeight(10);
+  stroke(15, 500, 5500);
 
 
 
@@ -164,36 +165,34 @@ function draw() {
 
       strokeWeight(0);
       textStyle(ITALIC);
-      textSize(21);
-      text('People always think they are affectionate.', 30, 40);
-      text('Seeing a bunny and saying it is cute,', 240, 60);
-      text('Seeing a lion and saying it is scary.', 60, 80);
-      text('Never knew how they bled and loved each other', 160, 100);
-      text('On the night of the storm.', 20, 120);
-      text('To free and entangle.', 380, 140);
-      text('Before building an ego，', 80, 160);
-      text('Destroy it.', 500, 180);
-      text('Like the beautiful bodies of those who die early.', 40, 200);
-      text('Roses at the head, desire seems so, ', 280, 220);
-      text('Decayed.', 80, 240);
-      text('Without ever having gotten，', 170, 260);
-      text('Even a joyful night,', 300, 280);
-      text('Or a glorious morning.', 20, 300);
-      text('Come and join my dream，', 380, 320);
-      text('All are builders, stealers, spotters.', 200, 340);
-      text('We will be born together, climax together, ', 40, 360);
-      text('Be dark together, be bright together, ', 250, 380);
-      text('And die together.', 120, 400);
+      textSize(15);
+      text('Rum lights the cigarette', 30, 40);
+      text('Ubiquitous new molecules trying to squeeze into pores', 30, 60);
+      text('Dazzle begins in the evening from the western horizon', 30, 80);
+      text('Reed be bent over with laughter, seeing moon through the cracks', 30, 100);
+      text('Archaea crosses time, people, the Pacific Ocean', 30, 120);
+      text('Deepest, 6,400 meters under the sea, the wreck suddenly traveled', 30, 140);
+      text('Universe endless monologue of slurred speech', 30, 160);
+      text('The sand is flying, the tide is surging', 30, 180);
+      text('The whole world is turned upside down', 30, 200);
+      text('Reef, return to a distant land this mountain high', 30, 240);
+      text('A smoke ring you exhaled caught me', 30, 260);
+      text('Not going anywhere', 30, 280);
+      text('All the music that we always kept inside will fill the sky', 30, 300);
+      text('Desert swept by blizzard', 30, 320);
+      text('Eyes, filled with a glass of cheerful wine, sober but drunk', 30, 340);
+      text('Love my love', 30, 380);
+      text('Yimei,3.21', 30, 400);
 
       //字母雨颜色参数
       fill(2000, 26, 1000);
-      let red = random(2000);
-      let g = random(79);
-      let b = random(4000);
+      let red = random(200);
+      let g = random(900);
+      let b = random(9000);
 
     }
     //字母雨大小参数
-    textSize(35);
+    textSize(30);
     textStyle(BOLD);
     //text('Font Style Bold', 10, 65);
     let red = random(0);
@@ -201,7 +200,7 @@ function draw() {
     let b = random(0);
 
     //fill (red,g,b); rgb, colors
-    //fill(25, 70, 10);
+    fill(25, 70, 10);
 
     //字母雨位置参数
     text(fallingLetters[i].char, fallingLetters[i].x + 37, fallingLetters[i].y);
